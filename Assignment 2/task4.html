@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <script>
+           let name= prompt("Enter your name");
+           console.log(name.length);
+           let lowercaseCount=0;
+           let uppercaseCount=0;
+           for(let i=0;i<name.length;i++)
+           {
+            let text=name[i].toUpperCase();
+             if(name[i]===text)
+             {
+                uppercaseCount++;
+             }
+             else{
+                lowercaseCount++;
+             }
+           }
+           console.log("Total Uppercase number=",uppercaseCount);
+           console.log("Total Lowercase number=",lowercaseCount);
+           
+        </script>
+    </body>
+</html>
