@@ -10,7 +10,12 @@
            for(let i=0;i<name.length;i++)
            {
             let text=name[i].toUpperCase();
-             if(name[i]===text)
+             
+             if(name[i]===" ")
+             {
+                 continue;
+             }
+             else if(name[i]===text)
              {
                 uppercaseCount++;
              }
