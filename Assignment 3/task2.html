@@ -6,14 +6,12 @@
             car={
                 name: "BMW",
                 car_num: "0123",
-                car_brand: function(){
-                        
-                    console.log("Car name is BMW");
+                car_colour: function(){
+                    console.log(this.name);
                 }
             }
-          
-            car.car_brand();
-            
+            car.car_colour();
+            console.log(car.car_num);
         </script>
     </body>
 </html> 
